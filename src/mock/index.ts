@@ -4,14 +4,15 @@ export const defaultUser: LocalGithubUser = {
     "login": "ervnkv",
     "id": 26189056,
     "avatar": "https://avatars.githubusercontent.com/u/26189056?v=4",
-    "name": "Yeah Gor",
-    "company": "ВОСХОД",
+    "name": "Revenkov Egor",
+    "company": "looking for",
     "blog": "",
-    "location": "Санкт-Петербург, Россия",
-    "bio": "React developer",
-    "twitter": "Усман Алишеров",
-    "repos": 2,
+    "location": "Saint-Petersburg",
+    "bio": "Frontend enthusiast developer",
+    "twitter": '',
+    "repos": 3,
     "followers": 0,
     "following": 2,
-    "created": "2017-03-04T18:02:58Z",
+    "created": "2023-03-21T14:26:35Z"
 } 
+
