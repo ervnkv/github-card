@@ -21,20 +21,27 @@
       font-size: 1.5rem;
     }
   }
-
-  h3 {
-    color: var(--main-color);
-    font-size: 0.75rem;
-    line-height: 1.5;
-
-    &::before {
-      content: '@';
-    }
-
-    @media (min-width: 767px) {
-      font-size: 1rem;
+  a{
+    text-decoration: none;
+    h3 {
+      color: var(--main-color);
+      font-size: 0.75rem;
+      font-weight: 700;
+      line-height: 1.5;
+      text-decoration: none;
+      &::before {
+        content: '@';
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+  
+      @media (min-width: 767px) {
+        font-size: 1rem;
+      }
     }
   }
+
 
   span {
     color: var(--ujoined-color);

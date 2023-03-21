@@ -20,7 +20,14 @@ export const UserTitle = ({name,login,created}: UserTitleProps) => {
   return(
     <div className={styles.userTitle} >
       <h2>{name}</h2>
-      <h3>{login}</h3>
+      <a
+        href={'https://github.com/'+login}
+        target="_blank"
+        rel="noreferrer"
+        className={styles.link}
+      >
+        <h3>{login}</h3>
+      </a>
       <span>{joinedDate}</span>
     </div>
   )
