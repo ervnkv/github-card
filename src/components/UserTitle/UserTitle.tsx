@@ -24,10 +24,10 @@ export const UserTitle = ({name,login,created}: UserTitleProps) => {
         href={'https://github.com/'+login}
         target="_blank"
         rel="noreferrer"
-        className={styles.link}
       >
-        <h3>{login}</h3>
+        {login}
       </a>
+      <br />
       <span>{joinedDate}</span>
     </div>
   )
