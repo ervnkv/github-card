@@ -20,13 +20,13 @@ export const UserInfo = ({blog,company,location,twitter}: UserInfoProps) => {
       text: location,
     },
     {
+      icon: <TwitterIcon/>,
+      text: twitter,
+    },
+    {
       icon: <BlogIcon/>,
       text: blog,
       isLink: true,
-    },
-    {
-      icon: <TwitterIcon/>,
-      text: twitter,
     },
     {
       icon: <CompanyIcon/>,

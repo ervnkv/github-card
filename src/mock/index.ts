@@ -13,6 +13,6 @@ export const defaultUser: LocalGithubUser = {
     "repos": 3,
     "followers": 0,
     "following": 2,
-    "created": "2023-03-21T14:26:35Z"
+    "created": "2017-03-04T18:02:58Z"
 } 
 
